@@ -7,13 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		886BAB642328D262008F6D4E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886BAB632328D262008F6D4E /* LoginView.swift */; };
+		886BAB652328D262008F6D4E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886BAB632328D262008F6D4E /* LoginView.swift */; };
+		886BAB662328D262008F6D4E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886BAB632328D262008F6D4E /* LoginView.swift */; };
+		886BAB742328D2D7008F6D4E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886BAB732328D2D7008F6D4E /* OnboardingView.swift */; };
+		886BAB752328D2D7008F6D4E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886BAB732328D2D7008F6D4E /* OnboardingView.swift */; };
+		886BAB762328D2D7008F6D4E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886BAB732328D2D7008F6D4E /* OnboardingView.swift */; };
+		886BAB7C232901A5008F6D4E /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886BAB7B232901A5008F6D4E /* OnboardingCoordinator.swift */; };
+		886BAB7D232901A5008F6D4E /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886BAB7B232901A5008F6D4E /* OnboardingCoordinator.swift */; };
+		886BAB7E232901A5008F6D4E /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886BAB7B232901A5008F6D4E /* OnboardingCoordinator.swift */; };
+		886BAB80232A536B008F6D4E /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886BAB7F232A536B008F6D4E /* LoginCoordinator.swift */; };
+		886BAB81232A536B008F6D4E /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886BAB7F232A536B008F6D4E /* LoginCoordinator.swift */; };
+		886BAB82232A536B008F6D4E /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886BAB7F232A536B008F6D4E /* LoginCoordinator.swift */; };
+		886BABAD232A6D61008F6D4E /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886BABAB232A6D61008F6D4E /* OnboardingViewController.swift */; };
+		886BABAE232A6D61008F6D4E /* OnboardingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 886BABAC232A6D61008F6D4E /* OnboardingViewController.xib */; };
+		886BABB1232A70D7008F6D4E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886BABAF232A70D7008F6D4E /* LoginViewController.swift */; };
+		886BABB2232A70D7008F6D4E /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 886BABB0232A70D7008F6D4E /* LoginViewController.xib */; };
 		88EF84372326391700AB0BDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF84362326391700AB0BDE /* AppDelegate.swift */; };
-		88EF84392326391700AB0BDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF84382326391700AB0BDE /* ViewController.swift */; };
-		88EF843C2326391700AB0BDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EF843A2326391700AB0BDE /* Main.storyboard */; };
+		88EF84392326391700AB0BDE /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF84382326391700AB0BDE /* BaseViewController.swift */; };
 		88EF843E2326391800AB0BDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EF843D2326391800AB0BDE /* Assets.xcassets */; };
 		88EF84412326391800AB0BDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EF843F2326391800AB0BDE /* LaunchScreen.storyboard */; };
 		88EF844C2326391800AB0BDE /* CoordinatorPOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF844B2326391800AB0BDE /* CoordinatorPOCTests.swift */; };
 		88EF84572326391800AB0BDE /* CoordinatorPOCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF84562326391800AB0BDE /* CoordinatorPOCUITests.swift */; };
+		88EF846C232642A300AB0BDE /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF846B232642A300AB0BDE /* BaseView.swift */; };
+		88EF846D232642A300AB0BDE /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF846B232642A300AB0BDE /* BaseView.swift */; };
+		88EF846E232642A300AB0BDE /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF846B232642A300AB0BDE /* BaseView.swift */; };
+		88EF84892326670F00AB0BDE /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF84882326670F00AB0BDE /* AppCoordinator.swift */; };
+		88EF848A2326670F00AB0BDE /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF84882326670F00AB0BDE /* AppCoordinator.swift */; };
+		88EF848B2326670F00AB0BDE /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF84882326670F00AB0BDE /* AppCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +55,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		886BAB632328D262008F6D4E /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		886BAB732328D2D7008F6D4E /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		886BAB7B232901A5008F6D4E /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
+		886BAB7F232A536B008F6D4E /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		886BABAB232A6D61008F6D4E /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		886BABAC232A6D61008F6D4E /* OnboardingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingViewController.xib; sourceTree = "<group>"; };
+		886BABAF232A70D7008F6D4E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		886BABB0232A70D7008F6D4E /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		88EF84332326391700AB0BDE /* CoordinatorPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoordinatorPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88EF84362326391700AB0BDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		88EF84382326391700AB0BDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		88EF843B2326391700AB0BDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88EF84382326391700AB0BDE /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		88EF843D2326391800AB0BDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88EF84402326391800AB0BDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88EF84422326391800AB0BDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +75,8 @@
 		88EF84522326391800AB0BDE /* CoordinatorPOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoordinatorPOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88EF84562326391800AB0BDE /* CoordinatorPOCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorPOCUITests.swift; sourceTree = "<group>"; };
 		88EF84582326391800AB0BDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88EF846B232642A300AB0BDE /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		88EF84882326670F00AB0BDE /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +104,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		886BAB592328D0DB008F6D4E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				886BAB622328D20D008F6D4E /* Views */,
+				886BAB612328D202008F6D4E /* Coordinators */,
+				886BAB602328D1F6008F6D4E /* Controllers */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		886BAB5A2328D0E4008F6D4E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				886BAB5D2328D11A008F6D4E /* Views */,
+				886BAB5C2328D109008F6D4E /* Coordinators */,
+				886BAB5B2328D0FD008F6D4E /* Controllers */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		886BAB5B2328D0FD008F6D4E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				886BABAB232A6D61008F6D4E /* OnboardingViewController.swift */,
+				886BABAC232A6D61008F6D4E /* OnboardingViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		886BAB5C2328D109008F6D4E /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				886BAB7B232901A5008F6D4E /* OnboardingCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		886BAB5D2328D11A008F6D4E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				886BAB732328D2D7008F6D4E /* OnboardingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		886BAB602328D1F6008F6D4E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				886BABAF232A70D7008F6D4E /* LoginViewController.swift */,
+				886BABB0232A70D7008F6D4E /* LoginViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		886BAB612328D202008F6D4E /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				886BAB7F232A536B008F6D4E /* LoginCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		886BAB622328D20D008F6D4E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				886BAB632328D262008F6D4E /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		88EF842A2326391700AB0BDE = {
 			isa = PBXGroup;
 			children = (
@@ -97,9 +197,12 @@
 		88EF84352326391700AB0BDE /* CoordinatorPOC */ = {
 			isa = PBXGroup;
 			children = (
+				886BAB5A2328D0E4008F6D4E /* Onboarding */,
+				886BAB592328D0DB008F6D4E /* Login */,
+				88EF8466232639B700AB0BDE /* Views */,
+				88EF8465232639A600AB0BDE /* Coordinators */,
+				88EF84642326397000AB0BDE /* ViewControllers */,
 				88EF84362326391700AB0BDE /* AppDelegate.swift */,
-				88EF84382326391700AB0BDE /* ViewController.swift */,
-				88EF843A2326391700AB0BDE /* Main.storyboard */,
 				88EF843D2326391800AB0BDE /* Assets.xcassets */,
 				88EF843F2326391800AB0BDE /* LaunchScreen.storyboard */,
 				88EF84422326391800AB0BDE /* Info.plist */,
@@ -123,6 +226,30 @@
 				88EF84582326391800AB0BDE /* Info.plist */,
 			);
 			path = CoordinatorPOCUITests;
+			sourceTree = "<group>";
+		};
+		88EF84642326397000AB0BDE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				88EF84382326391700AB0BDE /* BaseViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		88EF8465232639A600AB0BDE /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				88EF84882326670F00AB0BDE /* AppCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		88EF8466232639B700AB0BDE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				88EF846B232642A300AB0BDE /* BaseView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +356,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				886BABB2232A70D7008F6D4E /* LoginViewController.xib in Resources */,
 				88EF84412326391800AB0BDE /* LaunchScreen.storyboard in Resources */,
 				88EF843E2326391800AB0BDE /* Assets.xcassets in Resources */,
-				88EF843C2326391700AB0BDE /* Main.storyboard in Resources */,
+				886BABAE232A6D61008F6D4E /* OnboardingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +384,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88EF84392326391700AB0BDE /* ViewController.swift in Sources */,
+				88EF84392326391700AB0BDE /* BaseViewController.swift in Sources */,
+				886BAB80232A536B008F6D4E /* LoginCoordinator.swift in Sources */,
 				88EF84372326391700AB0BDE /* AppDelegate.swift in Sources */,
+				88EF84892326670F00AB0BDE /* AppCoordinator.swift in Sources */,
+				886BAB7C232901A5008F6D4E /* OnboardingCoordinator.swift in Sources */,
+				886BAB742328D2D7008F6D4E /* OnboardingView.swift in Sources */,
+				886BAB642328D262008F6D4E /* LoginView.swift in Sources */,
+				886BABAD232A6D61008F6D4E /* OnboardingViewController.swift in Sources */,
+				886BABB1232A70D7008F6D4E /* LoginViewController.swift in Sources */,
+				88EF846C232642A300AB0BDE /* BaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +401,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88EF846D232642A300AB0BDE /* BaseView.swift in Sources */,
 				88EF844C2326391800AB0BDE /* CoordinatorPOCTests.swift in Sources */,
+				886BAB652328D262008F6D4E /* LoginView.swift in Sources */,
+				886BAB7D232901A5008F6D4E /* OnboardingCoordinator.swift in Sources */,
+				886BAB81232A536B008F6D4E /* LoginCoordinator.swift in Sources */,
+				88EF848A2326670F00AB0BDE /* AppCoordinator.swift in Sources */,
+				886BAB752328D2D7008F6D4E /* OnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +415,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88EF846E232642A300AB0BDE /* BaseView.swift in Sources */,
 				88EF84572326391800AB0BDE /* CoordinatorPOCUITests.swift in Sources */,
+				886BAB662328D262008F6D4E /* LoginView.swift in Sources */,
+				886BAB7E232901A5008F6D4E /* OnboardingCoordinator.swift in Sources */,
+				886BAB82232A536B008F6D4E /* LoginCoordinator.swift in Sources */,
+				88EF848B2326670F00AB0BDE /* AppCoordinator.swift in Sources */,
+				886BAB762328D2D7008F6D4E /* OnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +441,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		88EF843A2326391700AB0BDE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				88EF843B2326391700AB0BDE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		88EF843F2326391800AB0BDE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,7 +572,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CoordinatorPOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -440,8 +581,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.deloitte.internal.CoordinatorPOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -449,7 +591,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CoordinatorPOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,8 +600,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.deloitte.internal.CoordinatorPOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
